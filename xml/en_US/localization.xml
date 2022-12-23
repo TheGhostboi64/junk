@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<game id="2103" highscore="10000" name="Bop It Pinball" locale="en_US">
+		<promo url="http://hasbro.com"></promo>
+		<embed_fonts>true</embed_fonts>
+		<textfields>		
+			
+			<!-- title screen texts -->
+			<startButton_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="startButton_txt"><![CDATA[START]]></startButton_txt>
+			<title_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="title_txt"><![CDATA[title screen]]></title_txt>
+			
+			<!-- instruction screen texts -->
+			<instructionsHeader_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="instructionsHeader_txt"><![CDATA[Listen to the commands and make your move!]]></instructionsHeader_txt>
+			<instructions_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="instructions_txt"><![CDATA[instructions go here]]></instructions_txt>
+			<closeButton_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="closeButton_txt"><![CDATA[CLOSE]]></closeButton_txt>
+			<instructionsTwist_txt fontsize="22" fontname="Abadi MT Condensed Extra Bold" instancename="instructionsTwist_txt"><![CDATA[Press any arrow key]]></instructionsTwist_txt>
+			<shakeItInstr_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="shakeItInstr_txt"><![CDATA[SHAKE IT]]></shakeItInstr_txt>
+			<shakeInstructions_txt fontsize="22" fontname="Abadi MT Condensed Extra Bold" instancename="shakeInstructions_txt"><![CDATA[Click and shake side to side]]></shakeInstructions_txt>
+			<instructionsLastLine_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="instructionsLastLine_txt"><![CDATA[You'll have to think fast to be a BOP IT Pinball master.]]></instructionsLastLine_txt>
+			<bopItInstr_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="bopItInstr_txt"><![CDATA[BOP IT]]></bopItInstr_txt>
+			<instrSpacebar_txt fontsize="10" fontname="Abadi MT Condensed Extra Bold" instancename="instrSpacebar_txt"><![CDATA[spacebar]]></instrSpacebar_txt>
+			<pullItInstr_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="pullItInstr_txt"><![CDATA[PULL IT]]></pullItInstr_txt><remember_txt fontsize="20" fontname="Abadi MT Condensed Extra Bold" instancename="remember_txt"><![CDATA[Remember...]]></remember_txt>
+			<twistItInstr_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="twistItInstr_txt"><![CDATA[TWIST IT]]></twistItInstr_txt>
+			<instructionsBop_txt fontsize="22" fontname="Abadi MT Condensed Extra Bold" instancename="instructionsBop_txt"><![CDATA[Bop the spacebar]]></instructionsBop_txt>
+			<instructionsPull_txt fontsize="22" fontname="Abadi MT Condensed Extra Bold" instancename="instructionsPull_txt"><![CDATA[Click and drag the mouse toward you]]></instructionsPull_txt>
+			
+			
+			<!-- in-game texts -->
+			<inGameLevelLabel_txt fontsize="18" fontname="Abadi MT Condensed Extra Bold" instancename="inGameLevelLabel_txt"><![CDATA[LEVEL:]]></inGameLevelLabel_txt>
+			<bonusRound_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="bonusRound_txt"><![CDATA[BONUS ROUND]]></bonusRound_txt>
+			<inGameFinalLevelLabel_txt fontsize="18" fontname="Abadi MT Condensed Extra Bold" instancename="inGameFinalLevelLabel_txt"><![CDATA[FINAL LEVEL]]></inGameFinalLevelLabel_txt>
+			<inGameScore_txt fontsize="18" fontname="Abadi MT Condensed Extra Bold" instancename="inGameScore_txt"><![CDATA[00000]]></inGameScore_txt>
+			<inGamelevel1_txt fontsize="18" fontname="Abadi MT Condensed Extra Bold" instancename="inGamelevel1_txt"><![CDATA[1]]></inGamelevel1_txt>
+			<inGamelevel2_txt fontsize="18" fontname="Abadi MT Condensed Extra Bold" instancename="inGamelevel2_txt"><![CDATA[2]]></inGamelevel2_txt>
+			<inGamelevel3_txt fontsize="18" fontname="Abadi MT Condensed Extra Bold" instancename="inGamelevel3_txt"><![CDATA[3]]></inGamelevel3_txt>
+			<cueStart_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="cueStart_txt"><![CDATA[START!]]></cueStart_txt>
+						
+			
+			<!-- transition screen texts -->
+			<loadingNextRound_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="loadingNextRound_txt"><![CDATA[LOADING NEXT ROUND...]]></loadingNextRound_txt>
+			<bopDropLine1_txt fontsize="20" fontname="Abadi MT Condensed Extra Bold" instancename="bopDropLine1_txt"><![CDATA[NEXT UP -- FINAL LEVEL: ]]></bopDropLine1_txt>
+			<bopDropLine2_txt fontsize="20" fontname="Abadi MT Condensed Extra Bold" instancename="bopDropLine2_txt"><![CDATA[BOP 'TIL YOU DROP]]></bopDropLine2_txt>
+			<currentStats_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="currentStats_txt"><![CDATA[CURRENT STATS]]></currentStats_txt>
+				
+			
+			
+			<!-- end screen texts -->
+			<promo_txt fontsize="14" fontname="Abadi MT Condensed Extra Bold" instancename="promo_txt"><![CDATA[Visit the BOP IT Web site to learn more about BOP IT games, including product demos!]]></promo_txt>
+			<advertisement_txt fontsize="14" fontname="Abadi MT Condensed Extra Bold" instancename="advertisement_txt"><![CDATA[ADVERTISEMENT]]></advertisement_txt>
+			<endBopCountLabel_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="endBopCountLabel_txt"><![CDATA[# OF BOPS:]]></endBopCountLabel_txt>
+			<endScoreLabel_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="endScoreLabel_txt"><![CDATA[SCORE:]]></endScoreLabel_txt>
+			<endBopCount_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="endBopCount_txt"><![CDATA[0]]></endBopCount_txt>
+			<endScore_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="endScore_txt"><![CDATA[00000]]></endScore_txt>
+			
+			<endScreen_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="endScreen_txt"><![CDATA[end screen]]></endScreen_txt>
+			<playAgainButton_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="playAgainButton_txt"><![CDATA[PLAY AGAIN]]></playAgainButton_txt>
+						
+			<pullItEnd_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="pullItEnd_txt"><![CDATA[PULL IT]]></pullItEnd_txt>
+			<spacebar_txt fontsize="17" fontname="Abadi MT Condensed Extra Bold" instancename="spacebar_txt"><![CDATA[spacebar]]></spacebar_txt>
+			<bopItEnd_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="bopItEnd_txt"><![CDATA[BOP IT]]></bopItEnd_txt>
+			<shakeItEnd_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="shakeItEnd_txt"><![CDATA[SHAKE IT]]></shakeItEnd_txt>
+			<twistItEnd_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="twistItEnd_txt"><![CDATA[TWIST IT]]></twistItEnd_txt>
+				
+			<finalResults_txt fontsize="30" fontname="Abadi MT Condensed Extra Bold" instancename="finalResults_txt"><![CDATA[FINAL RESULTS]]></finalResults_txt>
+			
+			
+			
+		</textfields>
+	</game>
+</root>
