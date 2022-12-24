@@ -13,10 +13,9 @@
 window.RufflePlayer.config = {
 "autoplay": "auto",
 "menu": false,
-"backgroundColor": null,
-"allowScriptAccess": "sameDomain",
+"backgroundColor": #000000,
 "quality": "high",
-"wmode": "opaque",
+"wmode": "transparent",
 "preloader": true,
 "allowfullscreen": true,
 "warnOnUnsupportedContent": false,
@@ -26,6 +25,9 @@ window.RufflePlayer.config = {
 
 <script>
     window.addEventListener("load", (event) => {
+    player.addEventListener('loadedmetadata', () => {
+  console.info(player.metadata.frameRate);
+          });
         const ruffle = window.RufflePlayer.newest();
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
