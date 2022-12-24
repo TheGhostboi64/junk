@@ -11,7 +11,7 @@
 		
 	</SwfsToLoadInBG>
 	
-	<SoundsToLoad dir="mp3/">
+	<SoundsToLoad dir="/mp3/">
 		
 		<!-- difficulty level 0 vo -->
 		<sound path="BopItCallWithMusicS1.mp3"  list="BopGameCall_BOP_0_0" />
