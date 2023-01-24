@@ -9,28 +9,34 @@
 
 <div id="container">
    <script>
-    var flashvars = {};
-			
-				flashvars.locale = 'en_US';
-			
-				flashvars.settingsXml = 'xml/settings_main.xml';
-			
-			var params = {
-			  menu: "false"
-			  ,bgcolor:"#000000"
-			  ,quality:"high"
-			  ,wmode:"transparent"
-			  ,align:"middle"
-			  ,allowfullscreen:"true"
-			  ,allowScriptAccess:"sameDomain"
-			};
-			
-			var attributes = {
-			id: "gamePlayer",
-			name: "gamePlayer"
-			};
+    window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+"autoplay": "auto",
+"backgroundColor": null,
+"allowScriptAccess": "sameDomain",
+"quality": "high",
+"wmode": "transparent",
+"align": true,
+"allowfullscreen": true,
+"warnOnUnsupportedContent": false,
+"upgradeToHttps": window.location.protocol === "https:",
+};
+</script>
 
-			swfobject.embedSWF("5A9ED5E819B9F369D9C5489F88F4294A.swf", "gamePlayer", "680", "510", "9.0.124",flashvars,params,attributes);
+<script>
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.load({
+        url: "5A9ED5E819B9F369D9C5489F88F4294A.swf",
+        parameters: "flashvars.locale = 'en_US'; flashvars.settingsXml = 'xml/settings_main.xml';",
+       });
+        player.style.width = "680px";
+        player.style.height = "510px";
+
+   });
 </script>
 </div>
  
