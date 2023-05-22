@@ -13,7 +13,8 @@
 window.RufflePlayer.config = {
 "autoplay": "auto",
 "backgroundColor": null,
-"allowScriptAccess": "sameDomain",
+"allowScriptAccess": "true",
+ "base": "https://hasbro.com/common/assets/Flash/Games/87e9fbe8d56fe1124784f6d2788f8ce8/4b05c59519b9f369d9c56a9bd1db4079/"
 "quality": "high",
 "wmode": "transparent",
 "align": true,
@@ -31,7 +32,7 @@ window.RufflePlayer.config = {
         container.appendChild(player);
         player.load({
         url: "5A9ED5E819B9F369D9C5489F88F4294A.swf",
-        parameters: "flashvars.locale = 'xml/en_US/'; flashvars.settingsXml = 'xml/settings_main.xml';",
+        parameters: "flashvars.locale = 'en_US/'; flashvars.settingsXml = 'xml/settings_main.xml';",
        });
         player.style.width = "680px";
         player.style.height = "510px";
